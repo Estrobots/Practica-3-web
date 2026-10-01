@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enemigos de One Piece</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <nav class="navegacion-principal">
+        <a href="#inicio"><i class="fa-solid fa-house"></i> Inicio</a>
+        <a href="#enemigos"><i class="fa-solid fa-skull-crossbones"></i> Peligro Mundial</a>
+        <a href="#contacto"><i class="fa-solid fa-scroll"></i> Reportar</a>
+    </nav>
+</header>
+
+<div class="hero" id="inicio">
+    <h1>Los Peores Enemigos de One Piece</h1>
+</div>
+
+<main class="contenedor" id="enemigos">
+    <h2>Piratas y Marines Nivel Amenaza</h2>
+    <div class="grid-enemigos">
+        <div class="enemigo">
+            <img src="img/kurohige.jpg" alt="Barba negra el unico pirata con dos frutas del diablo">
+            <h3>Marshall D. Teach (Kurohige)</h3>
+            <p>El único hombre capaz de poseer dos frutas del diablo.</p>
+        </div>
+        <div class="enemigo">
+            <img src="img/kainu.jpg" alt="Mayor opresor de wano">
+            <h3>Sakazuki (Akainu)</h3>
+            <p>Almirante de Flota con un sentido de justicia absoluta.</p>
+        </div>
+        <div class="enemigo">
+            <img src="img/kaido.jpg" alt="El almirante que le dio paso a la nueva era de piratas">
+            <h3>Kaido</h3>
+            <p>La criatura más fuerte del mundo.</p>
+        </div>
+    </div>
+</main>
+
+<section class="contacto-bg" id="contacto">
+    <h2>Reportar Avistamiento de Enemigo</h2>
+    <form class="formulario">
+        <fieldset>
+            <div class="campo">
+                <label>Nombre del Cazarrecompensas:</label>
+                <input type="text" placeholder="Tu Nombre">
+            </div>
+            <div class="campo">
+                <label>Correo Den Den Mushi:</label>
+                <input type="email" placeholder="Tu Email">
+            </div>
+            <div class="campo">
+                <label>Teléfono:</label>
+                <input type="tel" placeholder="Tu Teléfono">
+            </div>
+            <div class="campo">
+                <label>Detalles del Enemigo:</label>
+                <textarea placeholder="Describe el avistamiento"></textarea>
+            </div>
+            <div class="enviar">
+                <button type="submit" class="btn"><i class="fa-solid fa-paper-plane"></i> ENVIAR REPORTE</button>
+            </div>
+        </fieldset>
+    </form>
+</section>
+
+<footer class="site-footer">
+    <p>Todos los derechos reservados. Archivos de la Marina y Gobierno Mundial.</p>
+    <p>By Adrian Morales Mercado</p>
+</footer>
+
+</body>
+</html>
